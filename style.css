@@ -1,0 +1,150 @@
+
+/* nav section */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.8) ,
+    rgba(0,0,0,0.5)) ,url("./image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.nav{
+    background-color: transparent;
+    color: black;
+}
+.nav-icon {
+    color: white;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+
+.banner-text h4{
+    text-align: left;
+    /* margin-top: 30vh; */
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+.banner-text h1{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-text p{
+    padding: 20px 0px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+.banner-text button{
+    text-align: center;
+    text-decoration: none;
+}
+.container1{
+    padding-bottom: 50px;
+}
+.btn{
+    padding: 6px 20px;
+}
+
+/* hover part */
+
+.navbar-nav a:hover::after{
+    content: "";
+    display: block;
+    width: auto;
+    border-top: 2px solid;
+    color: red;
+    margin: 0 auto;
+}
+
+.nav-icon i:hover{
+    color: white;
+}
+
+
+/* upcoming event section */
+.row{
+    padding-bottom: 50px;
+}
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.up-event-text h2{
+    font-weight: bold;
+}
+.no-bullets h4{
+    font-weight: bold;
+}
+.up-event-text{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.up-event ul{
+    text-decoration: none;
+    padding: 0;
+}
+
+/* icon coloring */
+#fa{
+    color: red;
+}
+
+
+/* row section */
+.inner-content-beliefs{
+    width: 100%;
+    background-color: #0a0a0ad0;
+    color: white;
+    padding: 30px 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.inner-content-internships{
+    width: 100%;
+    background-color: #5e0606e0;
+    color: white;
+    padding: 30px 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.inner-content-mission{
+    width: 100%;
+    background-color: #f5420bf3;
+    color: white;
+    padding: 30px 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.inner-content-community{
+    width: 100%;
+    background-color: #f5690be0;
+    color: white;
+    padding: 30px 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.row-text{
+    padding: 0;
+    font-size: 12px;
+}
+.row-text a{
+    color: white;
+}
+.row-section{
+    padding-bottom: 50px;
+}
+
+
+/* event section */
+.heading h3{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
